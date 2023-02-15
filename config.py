@@ -1,10 +1,10 @@
 # device settings
-device = 'cuda' # or 'cpu'
+device = 'cpu' # or 'cpu'
 
 # data settings
-dataset_dir = '/path/to/your/dataset/' # parent directory of class folders
+dataset_dir = 'C:/botella' # parent directory of class folders
 feature_dir = 'data/features/' # directory where features are stored and loaded from
-use_3D_dataset = True # is MVTec 3D used?
+use_3D_dataset = False # is MVTec 3D used?
 pre_extracted = True # were feature pre-extracted with extract_features? (recommended)
 modelname = "my_experiment" # export evaluations/logs with this name
 print(modelname)
