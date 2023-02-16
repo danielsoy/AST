@@ -1,5 +1,5 @@
 # device settings
-device = 'cpu' # or 'cpu'
+device = 'cuda' # or 'cpu'
 
 # data settings
 dataset_dir = 'C:/botella' # parent directory of class folders
