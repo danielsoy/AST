@@ -63,6 +63,7 @@ def evaluate(test_loader):
 
     test_labels = np.concatenate(test_labels)
     is_anomaly = np.array([0 if l == 0 else 1 for l in test_labels])
+    print("is anomaly> ",is_anomaly)
 
     mean_st_auc = roc_auc_score(is_anomaly, mean_st)
     max_st_auc = roc_auc_score(is_anomaly, max_st)
