@@ -2,7 +2,7 @@
 device = 'cuda' # or 'cpu'
 
 # data settings
-dataset_dir = 'C:/AST_data' # parent directory of class folders
+dataset_dir = '/content/drive/MyDrive/AST_data' # parent directory of class folders
 feature_dir = 'data/features/' # directory where features are stored and loaded from
 use_3D_dataset = False # is MVTec 3D used?
 pre_extracted = True # were feature pre-extracted with extract_features? (recommended)
